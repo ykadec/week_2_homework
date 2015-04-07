@@ -22,6 +22,6 @@ Next, we'll apply what we learned to the roster we started building in class.
 
 Finally, you will familiarize yourself with the Bootstrap documentation by creating a cheatsheet for yourself. **This last part is not graded; it's just for your own benefit, so feel free to do it at your leisure.** You don't have to submit it by next week.
 
-Remember, ask lots of questions on First Draft! That's the whole point.
+Remember, think up lots of questions to ask on First Draft or in class! That's the whole point.
 
 The instructions (and solutions) can be found in the [Week 2 Homework Instructions video](http://dsgn425-s15.github.io/videos/week_2_hw_instructions.html).
