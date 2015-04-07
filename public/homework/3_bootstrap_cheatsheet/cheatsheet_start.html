@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Cheatsheet</title>
+
+  <!-- Connect to Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+  <!-- Connect to Font Awesome CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  <!-- Connect to our own custom CSS -->
+  <link rel="stylesheet" href="my_styles.css">
+
+  <!-- Connect to Jquery (required before Bootstrap Javascript) -->
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+  <!-- Connect to Bootstrap Javascript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="cheatsheet_start.html">Bootstrap Cheatsheet</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contents <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#page-headers">Page Headers</a></li>
+              <li><a href="#typography">Typography</a></li>
+              <li><a href="#buttons">Buttons</a></li>
+              <li><a href="#navbars">Navbars</a></li>
+              <li><a href="#tables">Tables</a></li>
+              <li><a href="#forms">Forms</a></li>
+              <li><a href="#navs">Navs</a></li>
+              <li><a href="#indicators">Indicators</a></li>
+              <li><a href="#progress-bars">Progress Bars</a></li>
+              <li><a href="#containers">Containers</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="cheatsheet_target.html" target="_blank">Target</a>
+          </li>
+          <li>
+            <a href="http://getbootstrap.com/" target="_blank">Official Docs</a>
+          </li>
+          <li>
+            <a href="http://fortawesome.github.io/Font-Awesome/icons/">Font Awesome Icons</a>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div id="main-jumbotron" class="jumbotron">
+    <div class="container text-center">
+      <h1>My Bootstrap Cheatsheet</h1>
+      <p>Examples of commonly used CSS and components, with links to the full documentation.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <a name="page-headers"></a>
+    <div class="page-header">
+      <h2>
+        Page Headers
+        <small>with subtext</small>
+        <a href="http://getbootstrap.com/components/#page-header" target="_blank" class="btn btn-default btn-xs">
+          <i class="fa fa-question-circle"></i>
+        </a>
+      </h2>
+    </div>
+
+    <a name="typography"></a>
+    <div class="page-header">
+      <h2>
+        Typography
+        <a href="http://getbootstrap.com/css/#type" target="_blank" class="btn btn-default btn-xs">
+          <i class="fa fa-question-circle"></i>
+        </a>
+      </h2>
+    </div>
+
+    <a name="buttons"></a>
+    <div class="page-header">
+      <h2>
+        Buttons
+        <div class="btn-group">
+          <a href="http://getbootstrap.com/css/#buttons" target="_blank" class="btn btn-default btn-xs">
+            <i class="fa fa-question-circle"></i>
+          </a>
+          <a href="#buttons" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://getbootstrap.com/css/#buttons" target="_blank">Colors, sizes, and states</a></li>
+            <li><a href="http://getbootstrap.com/components/#btn-groups" target="_blank">Button Groups</a></li>
+            <li><a href="http://getbootstrap.com/components/#btn-dropdowns" target="_blank">Button Dropdowns</a></li>
+          </ul>
+        </div>
+      </h2>
+    </div>
+
+    <a name="navbars"></a>
+    <div class="page-header">
+      <h2>
+        Navbars
+        <a href="http://getbootstrap.com/components/#navbar" target="_blank" class="btn btn-default btn-xs">
+          <i class="fa fa-question-circle"></i>
+        </a>
+      </h2>
+    </div>
+
+    <a name="tables"></a>
+    <div class="page-header">
+      <h2>
+        Tables
+        <a href="http://getbootstrap.com/css/#tables" target="_blank" class="btn btn-default btn-xs">
+          <i class="fa fa-question-circle"></i>
+        </a>
+      </h2>
+    </div>
+
+    <a name="forms"></a>
+    <div class="page-header">
+      <h2>
+        Forms
+        <a href="http://getbootstrap.com/css/#forms" target="_blank" class="btn btn-default btn-xs">
+          <i class="fa fa-question-circle"></i>
+        </a>
+      </h2>
+    </div>
+
+    <a name="navs"></a>
+    <div class="page-header">
+      <h2>
+        Navs
+        <a href="http://getbootstrap.com/components/#nav" target="_blank" class="btn btn-default btn-xs">
+          <i class="fa fa-question-circle"></i>
+        </a>
+      </h2>
+    </div>
+
+    <a name="indicators"></a>
+    <div class="page-header">
+      <h2>
+        Indicators
+      </h2>
+    </div>
+
+    <a name="progress-bars"></a>
+    <div class="page-header">
+      <h2>
+        Progress Bars
+        <a href="http://getbootstrap.com/components/#progress" target="_blank" class="btn btn-default btn-xs">
+          <i class="fa fa-question-circle"></i>
+        </a>
+      </h2>
+    </div>
+
+    <a name="containers"></a>
+    <div class="page-header">
+      <h2>
+        Containers
+      </h2>
+    </div>
+
+    <hr>
+
+  </div>
+</body>
+</html>

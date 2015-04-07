@@ -1,0 +1,17 @@
+body {
+  padding-top: 50px;
+}
+
+.space-above {
+  margin-top: 10px;
+}
+
+#main-jumbotron {
+  background: url("jumbotron-bg.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+#main-jumbotron .container {
+  color: #EEE;
+  background:rgba(0,0,0,0.25);
+}
